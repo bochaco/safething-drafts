@@ -1,9 +1,4 @@
 services:
-  app_proxy:
-    environment:
-      APP_HOST: safe-wallet_web_1
-      APP_PORT: 3000
-
   web:
     image: bochaco/safe-wallet:v0.0.1
     restart: on-failure
