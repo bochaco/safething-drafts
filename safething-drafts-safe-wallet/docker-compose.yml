@@ -2,11 +2,10 @@ services:
   app_proxy:
     environment:
       APP_HOST: safe-wallet_web_1
-      APP_PORT: 8080
+      APP_PORT: 3000
 
   web:
     image: bochaco/safe-wallet:v0.0.1
     restart: on-failure
     stop_grace_period: 1m
     environment:
-      SAFE_WALLET_PORT: 8080
