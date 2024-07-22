@@ -15,8 +15,9 @@ repo: https://github.com/bochaco/safe-wallet
 support: https://github.com/bochaco/safe-wallet/discussions
 port: 3002
 gallery:
+  - https://github.com/bochaco/safe-wallet/blob/master/src/img/safe-wallet-logo.gif?raw=true
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-submitter: Umbrel
+submitter: bochaco
 submission: https://github.com/getumbrel/umbrel/pull/
