@@ -13,7 +13,7 @@ website: https://bochaco.github.io
 dependencies:
 repo: https://github.com/bochaco/safe-wallet
 support: https://github.com/bochaco/safe-wallet/discussions
-port: 3000
+port: 3002
 gallery:
   - https://github.com/bochaco/safe-wallet/blob/master/src/img/safe-wallet-logo.gif?raw=true
 path: ""
