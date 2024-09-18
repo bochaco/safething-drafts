@@ -5,10 +5,15 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
+      APP_HOST: safething-drafts-hello-world_web_1
       APP_PORT: 3000
     
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
+  web:
+    image: bochaco/hello-world:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+      PORTAINER_HOST: host.docker.internal
+      NODES_RPC_HOST: host.docker.internal
+    extra_hosts:
+      "host.docker.internal:host-gateway"
