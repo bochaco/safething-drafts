@@ -5,10 +5,11 @@ services:
       APP_PORT: 52200
     container_name: safething-drafts-formicaio_app_proxy_1
   formicaio_proxy:
-    image: bochaco/formicaio_proxy:latest
+    image: bochaco/formicaio_proxy:0.2.0@sha256:149c41e8281876837cf7df90c9253ac1b7460e04a47a91bc09363c470cbac4d0
     environment:
       FORMICAIO_ADDR: host.docker.internal:52201
       FORMICAIO_PROXY_PORT: 52200
+      FORMICAIO_WIDGET_PROXY_PORT: 52210
     extra_hosts:
       - host.docker.internal:host-gateway
     container_name: safething-drafts-formicaio_formicaio_proxy_1
