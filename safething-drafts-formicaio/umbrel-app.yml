@@ -4,7 +4,7 @@ name: Formicaio
 tagline: Il potere delle formiche
 icon: https://raw.githubusercontent.com/bochaco/formicaio/cc1bb961c97ea6d5042ada43f83ea1bcf4808fd4/public/formicaio.svg
 category: social
-version: "0.5.4"
+version: "0.5.5"
 port: 52200
 description: >-
   Le formiche sono insetti sociali che vivono in colonie e sono
