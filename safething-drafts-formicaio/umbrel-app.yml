@@ -2,7 +2,7 @@ manifestVersion: 1
 id: safething-drafts-formicaio
 name: Formicaio
 tagline: Il potere delle formiche
-icon: https://raw.githubusercontent.com/bochaco/formicaio/cc1bb961c97ea6d5042ada43f83ea1bcf4808fd4/public/formicaio.svg
+icon: https://raw.githubusercontent.com/bochaco/formicaio/11da485d125bd315b474e42da5e515330960110f/public/formicaio_vtest.svg
 category: social
 version: "0.6.2"
 port: 52200
