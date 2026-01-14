@@ -14,7 +14,7 @@ services:
       - host.docker.internal:host-gateway
     container_name: safething-drafts-formicaio_formicaio_proxy_1
   formicaio:
-    image: bochaco/formicaio:0.6.2-native@sha256:6cfcc358e6021e72b56d17675aadc5384255c5f8d96d9fbfe1593fa94fba4c1d
+    image: bochaco/formicaio:0.7.0-native@sha256:62ce86e2da437f8c398c815354f6a9771f09959d61f5521419c10ce320268c39
     privileged: true
     restart: on-failure
     network_mode: host
